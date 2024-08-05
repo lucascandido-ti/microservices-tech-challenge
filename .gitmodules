@@ -1,0 +1,18 @@
+[submodule "tc-ms-order-manager"]
+	path = tc-ms-order-manager
+	url = https://github.com/lucascandido-ti/tc-ms-order-manager
+[submodule "ts-ms-production-manager"]
+	path = ts-ms-production-manager
+	url = https://github.com/lucascandido-ti/ts-ms-production-manager
+[submodule "ts-ms-payment-manager"]
+	path = ts-ms-payment-manager
+	url = https://github.com/lucascandido-ti/ts-ms-payment-manager
+[submodule "tc-ms-terraform-ias"]
+	path = tc-ms-terraform-ias
+	url = https://github.com/lucascandido-ti/tc-ms-terraform-ias
+[submodule "ts-ms-helm-packages"]
+	path = ts-ms-helm-packages
+	url = https://github.com/lucascandido-ti/ts-ms-helm-packages
+[submodule "ts-ms-kubernetes"]
+	path = ts-ms-kubernetes
+	url = https://github.com/lucascandido-ti/ts-ms-kubernetes
