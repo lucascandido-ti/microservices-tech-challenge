@@ -10,8 +10,6 @@ Este projeto foi implementado para o Tech Challenge da primeira fase da Pós Gra
 - [Conclusão](#conclusão)
 
 
-
-
 <a name="section-1"></a>
 ### Estrutura do Projeto
 #### SAGA Coreografada
@@ -61,7 +59,6 @@ Para subir todo nosso cluster, certifique-se de ter o kubernetes ativado em seu 
 ### Infraestrutura Cloud
 
 No projeto `ts-ms-terraform-ias` é onde se encontra todos os arquivos de configuração para ferramenta Terraform que permite subir toda nossa infraestrutura na AWS, utilizando ferramentas como VPC, EKS, ECR, EC2, entre outras soluções
-
 
 
 <a name="#section-7"></a>
