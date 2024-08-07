@@ -4,6 +4,7 @@ Este projeto foi implementado para o Tech Challenge da primeira fase da Pós Gra
 
 ## Índice
 - [Estrutura do Projeto](#estrutura-do-projeto)
+- [Documentação](#documentacao)
 - [Arquitetura Hexagonal / Limpa](#arquitetura-hexagonal--limpa)
 - [Infraestrutura Kubernetes](#infraestrutura-com-kubernetes)
 - [Infraestrutura Cloud](#infraestrutura-cloud)
@@ -21,6 +22,29 @@ O projeto segue o padrão SAGA Coreografada, então com esta estrátegia a respo
 ![Workflow Events - Microservices - Send and Consume - v1](https://github.com/user-attachments/assets/6f8310b9-f935-45b2-ae2a-9f5f22f8aca7)
 
 A escolha pela SAGA Coreografada se da pela simplicidade de poder adicionar novos serviços que se inscrevem em um tópico especifico e faz seus processamento de forma paralela sem interferir em outros serviços. Os serviços publicam eventos quando ocorre uma alteração em seu estado, permitindo que outros serviços consumam essa mensagem e reajam de acordo.
+
+<a name="section-2"></a>
+### Documentacao
+
+## ZAP
+
+O OWASP ZAP é uma ferramenta de teste de código aberto líder de mercado, amplamente utilizada para identificar vulnerabilidades em aplicações web. O relatório gerado pelo ZAP fornece uma visão detalhada das vulnerabilidades encontradas em sua aplicação, incluindo:
+- Tipo de vulnerabilidade: SQL Injection, XSS, CSRF, etc.
+- Localização: A parte específica do código ou URL onde a vulnerabilidade foi encontrada.
+- Severidade: A gravidade da vulnerabilidade (crítica, alta, média, baixa).
+- Recomendações: Sugestões de como corrigir cada vulnerabilidade.
+
+Os relatório dos ZAP se encontram na pasta `docs/zap` neste mesmo repositório.
+
+## Relatório RIPD
+
+O RIPD (Relatório de Impacto de Proteção de Dados) é um documento que descreve as consequências de uma violação de dados, incluindo o impacto para os indivíduos afetados, a organização e a sociedade. O RIPD geralmente inclui:
+- Inventário de dados: Quais dados são processados e armazenados.
+- Análise de riscos: Quais são os riscos associados a cada tipo de dado.
+- Medidas de segurança: Quais medidas são tomadas para proteger os dados.
+- Plano de resposta a incidentes: Como a organização responderá a uma violação de dados.
+
+Os relatório RIPD se encontram na pasta `docs/LGPD` neste mesmo repositório.
 
 
 <a name="section-2"></a>
